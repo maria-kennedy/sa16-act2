@@ -13,3 +13,144 @@
  *= require_tree .
  *= require_self
  */
+
+/*  palette colors = 
+    duck egg blue: "#c5cfd1", sea foam: "#e3e7e1", sourdough: #e7ddd2, 
+    hazelnut latte: #c5bbad, soft granite: #899293, mineral green: #526766  */
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #e7ddd2;
+    }
+ nav {
+    background-color: #526766; 
+  }
+  .horizontal-nav {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  .horizontal-nav li {
+    display: inline-block;
+  }
+  .horizontal-nav li a {
+    display: block;
+    color: #e7ddd2; 
+    padding: 15px 20px; 
+    text-decoration: none;
+  }
+  
+  .horizontal-nav li a:hover {
+    background-color: #899293; 
+  }
+/* ############################################# */
+.home-container {
+    background-color: #e3e7e1;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.section-container
+
+
+/* ################################### */
+
+#about-me-section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.about-container {
+    background-color: #e3e7e1;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.about-container h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.about-container p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+}
+
+.about-container p:last-child {
+    margin-bottom: 0;
+}
+/* ######################### */
+#work-section {
+    padding: 20px;
+    background-color: #c5cfd1;
+}
+
+.project-container {
+    width: 200px;
+    background-color: #e3e7e1;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 20px;
+    display: flex; 
+    flex-direction: column;
+    align-items: center; 
+}
+
+.project-image {
+    width: 100px; 
+    height: auto; 
+}
+
+.project-title {
+    font-weight: bold;
+    margin-bottom: 5px;
+    text-align: center; 
+}
+
+.project-title a {
+    text-decoration: none;
+    color: #768ea7; 
+}
+.project-description {
+    margin-bottom: 10px;
+    text-align: center; 
+}
+/* ############################ */
+
+
+.contact-container {
+    max-width: 70%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #c5bbad;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 50px;
+}
+
+.contact-container h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.contact-container label {
+    font-size: 18px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+textarea {
+    resize: vertical;
+}

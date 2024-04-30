@@ -9,6 +9,14 @@
     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
     <%= javascript_importmap_tags %>
   </head>
+  <nav>
+    <ul class="horizontal-nav">
+      <li><%= link_to "Home", home_path %></li>
+      <li><%= link_to "About Me", about_path %></li>
+      <li><%= link_to "My Work", work_path %></li>
+      <li><%= link_to "Contact Me", contact_path %></li>
+    </ul>
+  </nav>
 
   <body>
     <%= yield %>

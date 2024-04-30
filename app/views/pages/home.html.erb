@@ -1,2 +1,27 @@
-<h1>Welcome to My Rails Application</h1>
-<p>This is the content of the home page, accessible at '/home'.</p>
+<section id="home">
+<h1>Welcome!</h1>
+    <div class="home-container">
+        <p>This is my rails app that I probably spent way too long trying to 
+            style although that was definitely <strong>not</strong> the point of this assignment.</p>
+        <p>But alas, I must move on to something else... so if it looks a little crazy, that's why.</p>
+    </div>
+
+    <div class="home-container">
+        <h2>My Portfolio</h2>  
+        <div class="section-container">
+            <h3>About Me</h3>  
+            <h5><%= link_to "Learn more about me", about_path %>&rarr;</h5>
+        </div>
+
+        <div class="section-container">
+            <h3>My Work</h3> 
+            <h5><%= link_to "View my projects", work_path %>&rarr;</h5>
+        </div>
+
+        <div class="section-container">
+            <h3>Contact Me</h3> 
+            <h5><%= link_to "Get in touch", contact_path %>&rarr;</h5>
+        </div>
+    </div>
+
+</section>
